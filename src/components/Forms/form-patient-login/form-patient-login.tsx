@@ -13,7 +13,7 @@ import { Image, Text } from "react-native";
 import { ImageSource } from "react-native-vector-icons/Icon";
 import { ButtonImageIcon } from "../../Buttons/buttonLogin/buttonLogin-style";
 import { ImageLogo } from "../../Buttons/buttonEmailSenha/buttonEmailSenha-style";
-import { InputLogin, PatientInput } from "../../../screen/login/login-style";
+import { InputLogin, PatientInput } from "../../../screen/Login/login-style";
 
 interface PatientRecordValues {
   placeholder: string;

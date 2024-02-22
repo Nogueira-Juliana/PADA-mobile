@@ -1,19 +1,16 @@
 import React from "react";
 import SplashScreen from "../../screen/splashScreen/splashScreen";
-import LoginCadastro from "../../screen/loginCadastro/loginCadastro";
-import Login from "../../screen/login/login";
+import Login from "../../screen/Login/login";
 import { propsNavigationStack } from "./Models";
-import PatientRecord from "../../screen/cadastro/cadastro";
-import TelaPrincipal from "../../screen/telaPrincipal/telaPrincipal";
+import PatientRecord from "../../screen/PasswordCriation/cadastro";
+import TelaPrincipal from "../../screen/Home/telaPrincipal";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import PatientList from "../../screen/listaPacientes/lista-pacientes";
-import Patient from "../../screen/paciente/patient";
-import ProfissionalResponsavel from "../../screen/profissionalResponsável/profissionalResponsável";
+import Patient from "../../screen/Patient/patient";
+import ProfissionalResponsavel from "../../screen/ResponsibleDoctor/profissionalResponsável";
 import MyVaccines from "../../screen/minhasVacinas/my-vaccines";
-import CodigoCelular from "../../screen/codigoCelular/codigo-celular";
-import RedefinirSenha from "../../screen/redefinirSenha/redefinirSenha";
-import RecuperacaoSenha from "../../screen/recuperacaoSenha/recuperacaoSenha";
-import TelaSucesso from "../../screen/telaSucesso/telaSucesso";
+import RedefinirSenha from "../../screen/PasswordRedefine/redefinirSenha";
+import RecuperacaoSenha from "../../screen/PasswordRecovery/recuperacaoSenha";
+import TelaSucesso from "../../screen/PasswordRecoverySuccess/telaSucesso";
 
 const { Navigator, Screen } =
   createNativeStackNavigator<propsNavigationStack>();
@@ -24,7 +21,6 @@ export default function () {
       initialRouteName="SplashScreen"
       screenOptions={{ headerShown: false }}
     >
-      <Screen name="LoginCadastro" component={LoginCadastro} />
       <Screen name="Login" component={Login} />
       <Screen name="Cadastro" component={PatientRecord} />
       <Screen name="TelaPrincipal" component={TelaPrincipal} />
@@ -35,7 +31,6 @@ export default function () {
       />
       <Screen name="SplashScreen" component={SplashScreen} />
       <Screen name="MyVaccines" component={MyVaccines} />
-      <Screen name="CodePhone" component={CodigoCelular} />
       <Screen name="RedefinirSenha" component={RedefinirSenha} />
       <Screen name="RecuperacaoSenha" component={RecuperacaoSenha} />
       <Screen name="TelaSucesso" component={TelaSucesso} />
