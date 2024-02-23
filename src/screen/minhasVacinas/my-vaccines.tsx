@@ -1,4 +1,4 @@
-import HeaderFluxo from "../../components/Headers/headerFluxo/header-fluxo";
+import HeaderFluxo from "../../components/Headers/HeaderHome/header-home";
 import { Scroll } from "../Patient/patient-style";
 import {
   ContainerItemInformationVaccine,

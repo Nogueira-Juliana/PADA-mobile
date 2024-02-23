@@ -26,7 +26,7 @@ import {
   TextDataPatient,
   TitleHeaderFluxo,
   TitleHeaderVaccines,
-} from "./header-fluxo-style";
+} from "./header-home-style";
 import { StatusBar } from "react-native";
 import Icon from "react-native-vector-icons/Ionicons";
 import { useNavigation } from "@react-navigation/native";
@@ -46,9 +46,9 @@ import {
   SubTitleHeaderName,
   SubTitleHeaderSpecialty,
   TitleHeaderDoctor,
-} from "./header-fluxo-doctor-style";
+} from "./header-home-doctor-style";
 
-const HeaderFluxo = (props: {
+const HeaderHome = (props: {
   title: string | undefined;
   backButton: boolean;
   buttonVaccine: boolean;
@@ -166,4 +166,4 @@ const HeaderFluxo = (props: {
   );
 };
 
-export default HeaderFluxo;
+export default HeaderHome;
