@@ -1,19 +1,19 @@
 import React from "react";
 import SplashScreen from "../../screen/splashScreen/splashScreen";
-import LoginCadastro from "../../screen/loginCadastro/loginCadastro";
+import LoginCadastro from "../../screen/LoginRegistration/loginRegistration";
 import Login from "../../screen/login/login";
 import { propsNavigationStack } from "./Models";
-import PatientRecord from "../../screen/cadastro/cadastro";
-import TelaPrincipal from "../../screen/telaPrincipal/telaPrincipal";
+import PatientRecord from "../../screen/Signin/signin";
+import TelaPrincipal from "../../screen/homeScreen/homeScreen";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import PatientList from "../../screen/listaPacientes/lista-pacientes";
-import Patient from "../../screen/paciente/patient";
-import ProfissionalResponsavel from "../../screen/profissionalResponsável/profissionalResponsável";
-import MyVaccines from "../../screen/minhasVacinas/my-vaccines";
-import CodigoCelular from "../../screen/codigoCelular/codigo-celular";
-import RedefinirSenha from "../../screen/redefinirSenha/redefinirSenha";
-import RecuperacaoSenha from "../../screen/recuperacaoSenha/recuperacaoSenha";
-import TelaSucesso from "../../screen/telaSucesso/telaSucesso";
+import PatientList from "../../screen/patientList/patient-list";
+import Patient from "../../screen/patient/patient";
+import ProfissionalResponsavel from "../../screen/responsibleProfessional/responsibleProfessional";
+import MyVaccines from "../../screen/myVaccines/my-vaccines";
+import CodigoCelular from "../../screen/phoneCode/phone-code";
+import RedefinirSenha from "../../screen/ResetPassword/resetPassword";
+import RecuperacaoSenha from "../../screen/passwordRecovery/passwordRecovery";
+import TelaSucesso from "../../screen/successScreen/successScreen";
 
 const { Navigator, Screen } =
   createNativeStackNavigator<propsNavigationStack>();

@@ -1,5 +1,5 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import TelaPrincipal from "../../screen/telaPrincipal/telaPrincipal";
+import TelaPrincipal from "../../screen/homeScreen/homeScreen";
 import { Image } from "react-native";
 
 const { Screen, Navigator } = createBottomTabNavigator();
